@@ -1,0 +1,124 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>CC1 - 2020 - Laboratorio #5</title>
+</head>
+<body>
+	<hr>
+	<font size="4" color="navy">Ciencias de la Computacion I - 2020</font>
+	<hr>
+	<font size="6" color="darkgreen">Laboratorio #5</font>
+	<hr>
+	<b>A continuacion encontrara un listado de ejercicios a realizar para el Laboratorio #5.
+	Al finalizar, todos los archivos requeridos debe guardarlos en un archivo comprimido .zip
+	(no .tar o .rar) llamado
+	<b>lab5-carnet.zip</b> y entregarlo via GES(o Google Classroom). NOTE que la palabra "carnet" en este nombre se
+	debe sustituir por su numero de carnet. Ejemplo: lab5-20001234.zip. Diez minutos antes
+	de que la hora del laboratorio termine debe entregar lo que lleva del mismo.
+	Si no lo hace, tendra 0 en el lab por no trabajar. Tome en cuenta que se le bajaran puntos
+	si no sigue instrucciones.</b>
+	<hr>
+	El tema de este laboratorio son subrutinas. NO puede usar funciones o procedimientos en Python
+	que ya le hagan el trabajo. Para este laboratorio debe descarcar <b><a href="MaterialLab5.zip">MaterialLab5</a></b> proveido por su profesor.
+
+    <p></p>
+
+    <br>
+    <br>
+
+	<b>Ejercicio #1: (Nombre del archivo: ejercicio1.py)</b>
+	<br>
+	Complete el programa definido en el archivo <b><tt>ejercicio1.py</tt></b>  con la siguiente subrutina:
+	<br>
+	<br>
+	Una funcion llamada <b><tt>roundNumber</tt></b> que reciba de parametros
+    un numero y una cantidad de digitos (o cifras), y devuelva el numero truncado a
+    la cantidad de digitos, despues del punto decimal, que se le pide.
+		Debe hacer esto con operaciones matematicas,
+    no puede convertir el numero a otro tipo de dato, ni utilizar algo que ya haga este mismo
+    trabajo en Python.
+		<br>Ejemplo: Si el numero es 1234.5678 y cantidad de digitos es 2,
+		entonces se devolveria 1234.56
+    <br>
+		El ejercicio le provee un modo de autoevaluacion  el cual evaluara el resultado de su funcion
+		con 10 casos predefinidos. Tambien trae una forma de ejecucion aleatoria, el cual genera un
+		numero aleatorio y usa su funcion para cifras significativas.
+		Utilice estos dos modos de ejecucion para probar que su funcion haya
+		sido definida correctamente.
+    <p>
+	<b>Ejercicio #2: (Nombre del archivo: ejercicio2.py)</b>
+	<br>
+	Complete el programa definido en el archivo <b><tt>ejercicio2.py</tt></b>  con la siguiente subrutina:
+	<br>
+	<br>
+	Una funcion llamada <b><tt>siguienteColor</tt></b> que reciba de parametro un String que representa un color
+	en el semaforo y devuelva el siguiente color. Los colores (tanto el argumento como lo que devuelve) son
+  Strings en ingles : "RED", "YELLOW" y "GREEN", que representan el rojo, amarillo y verde respectivamente.
+	Si el color recibido es rojo, su funcion debe devolver verde, si es verde, debe devolver amarillo, y si
+	es amarillo devolver rojo, si no es ninguno de esos tres colores, su funcion debe devolver "GRAY".
+	<br>
+	El programa provee una simulacion grafica del semaforo que intara hacer 10 cambios de
+	color consecutivos. Si su funcion trabaja correctamente, vera los cambios correctos en
+	el semaforo. Tambien se despliegan los cambios de color en la consola.
+
+  <p>
+	<b>Ejercicio #3: (Nombre del archivo: ejercicio3.py)</b>
+	<br>
+	Complete el programa definido en el archivo <b><tt>ejercicio3.py</tt></b>  con la siguiente
+	subrutina:
+	<br>
+	<br>
+	Una funcion llamada <b><tt>generarPlaca</tt></b> la cual genere un numero de placa
+	aleatoriamente y lo devuelva en formato String. El numero de placa debe cumplir con
+	las siguientes caracteristicas:
+	<ul>
+		<li>Debe tener un length = 6
+		<li>Los primeros 3 caracteres deben ser digitos del 0 al 9. Los tres digitos deben ser generados
+			aleatoriamente cada uno por separado (es decir que pueden o no ser iguales).
+		<li>Los siguientes 3 caracteres deben ser letras mayusculas entre la A y la Z, cumpliendo con Los
+			mismos requisitos que los digitos.
+	</ul>
+	<pre>
+
+		Ejemplo de placas validas: 257NGH, 099AGK, 364PLT
+
+	</pre>
+	<br>
+	El ejercicio le provee un modo de autoevaluacion.Este modo utilizara su funcion para generar
+	varias placas y le desplegara el resultado del analisis si estan son validas o no. Tambien
+	provee un modo iteractivo en donde usted puede ingresar un numero de placas a generar y le
+	desplegara esa cantidad de placas generadas con su funcion. Utilice estas opciones
+	evaluar si su funcion esta correcta o no.
+
+ 	<p>
+	<b>Ejercicio #4: (Nombre del archivo: ejercicio4.py)</b>
+	<br>
+    Para este ejercicio se le pide que implemente lo siguiente:
+    <br>
+    <br>
+    (1) Una procedimiento llamado <tt><b>dateInWords</b></tt> que reciba de
+    parametro un String representando una fecha, y despliegue esta fecha en palabras. Debe asumir
+		que el formato de la fecha es DD/MM/AAAA siempre. En donde DD es un numero de dos digitos,
+		MM tambien y AAAA es un numero de 4 digitos. Asuma tambien que la fecha es valida.
+		Su procedimiento debe cambiar esta fecha a palabras basandose en los siguientes ejemplos:
+<pre>
+				Si la fecha recibida es : 22/03/2018
+				Su procedimiento debe desplegar: 22 de Marzo del 2018
+
+
+				Si la fecha recibida es : 05/12/2017
+				Su procedimiento debe desplegar: 05 de Diciembre del 2017
+</pre>
+
+    <br>
+    (2) Un procedimiento principal, que lea del usuario el String de la fecha y
+    utilizando su procedimiento anterior, la despliegue en palabras.
+    <br>
+    <br>
+	<p>
+	</p><hr>
+	<i><font color="navy">cc1fisicc@galileo.edu</font></i>
+
+
+
+
+</body></html>
